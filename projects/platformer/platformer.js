@@ -47,9 +47,9 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-createPlatform(170, 370, 50, 20); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
-createPlatform (700, 700,500, 14);
-createPlatform (370, 465, 432,12);//short but wide platform located 400 pixels from the right of the screen and 450 pixels from the top the screen
+    createPlatform(170, 370, 50, 20); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
+    createPlatform(700, 700, 500, 14);
+    createPlatform(370, 465, 432, 12);//short but wide platform located 400 pixels from the right of the screen and 450 pixels from the top the screen
     createPlatform(800, 600, 544, 14)
     createPlatform(400, 300, 300, 10)
     // TODO 2
@@ -57,9 +57,9 @@ createPlatform (370, 465, 432,12);//short but wide platform located 400 pixels f
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
-createCollectable("steve", 500, 300, 20, 0.5); // creates a "steve" collectible at the coordinates (500, 300), falling with high gravity of 30, and bouncing with 30% bounce
-createCollectable("grace", 600, 100); // creates a "grace" collectible at the coordinates (500,300), falling with default gravity and bouncing with default bounce %
-
+    createCollectable("steve", 500, 300, 20, 0.5); // creates a "steve" collectible at the coordinates (500, 300), falling with high gravity of 30, and bouncing with 30% bounce
+    createCollectable("grace", 600, 100); // creates a "grace" collectible at the coordinates (500,300), falling with default gravity and bouncing with default bounce %
+    createCollectable("nick", 500, 200);
 
     // TODO 3
     // Create cannons
