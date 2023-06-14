@@ -59,7 +59,7 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
     createCollectable("steve", 500, 300, 20, 0.5); // creates a "steve" collectible at the coordinates (500, 300), falling with high gravity of 30, and bouncing with 30% bounce
     createCollectable("grace", 600, 100); // creates a "grace" collectible at the coordinates (500,300), falling with default gravity and bouncing with default bounce %
-    createCollectable("nick", 500, 200);
+    createCollectable("diamond", 500, 200);
 
     // TODO 3
     // Create cannons
@@ -69,7 +69,7 @@ $(function () {
 createCannon("left",560, 700); // cannon on left wall,  600px down shooting once per second
 createCannon("right", 200, 500);
 createCannon("right", 440, 1500);
-
+    createCannon("top", 500, 900);
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
